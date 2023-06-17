@@ -17,7 +17,7 @@ public class AWTCounter extends Frame {
       lblCount = new Label("Counter");  // construct the Label component
       add(lblCount);                    // "super" Frame container adds Label component
 
-      tfCount = new TextField(count + "", 10); // construct the TextField component with initial text
+      tfCount = new TextField(count + "", 15); // construct the TextField component with initial text
       tfCount.setEditable(false);       // set to read-only
       add(tfCount);                     // "super" Frame container adds TextField component
 

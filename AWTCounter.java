@@ -35,7 +35,7 @@ public class AWTCounter extends Frame {
       setSize(300, 100);        // "super" Frame sets its initial window size
 
       // For inspecting the Container/Components objects
-      // System.out.println(this);
+       //System.out.println(this);
       // System.out.println(lblCount);
       // System.out.println(tfCount);
       // System.out.println(btnCount);
